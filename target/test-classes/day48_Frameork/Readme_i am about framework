@@ -1,0 +1,86 @@
+Automation Framework
+----------------------
+
+what is an automation framework
+=> * where we organize automation project files/folder in structure manners 
+     that is nothing but the framework.
+   * by using framework its very easy to read, maintain and reuse code.
+   * Objective
+     1. Re-usability
+     2. Maintainability- easy to modify
+     3. Readability - everyone should able to learn and understand
+     
+what are the different type of framework?
+=> there are two type of framework
+   1. Built-in 
+      Ex - testNG, Junit, cucumber, robot etc...
+      
+   2. Customized (user defined)
+      EX - modular, data driven, keyword driven, hybrid driven etc...  
+
+==============================================================================
+      
+phases/stages
+-------------      
+1. Analyze Application Under Test (AUT)
+   * how many web pages = according to that we will split them into team
+   * what are all Element/ how/ type 
+   * what to automate/ what we can not automate?
+     => from application perspective we decide weather automate or not
+
+2. How to Choose test cases for Automation?
+=> 100 TC --- 90 automatable 10 can not automate
+   so here if u automate all au tomatable TC (90) its mean 100% automation achieve
+   
+   1. sanity test cases - P1
+   2. data driven test cases/ re-test - P2
+   3. Regression TC - P3 
+   4. Other TC - P4
+   
+3. Design & Development of framework
+=> Design - it mean the folder structure u follow
+          - generally senior people do this design kind of thing
+           
+   Development - it mean we add code    
+   
+4. Execution
+=> Local - on my local system i run code
+   Remotely - I push code in remote repo then by taking that 
+   code i run it on some other machine like jenkins
+   
+5. Maintenance
+=> we will have the code in common place = remote repo. 
+
+=================================================================================
+
+E-commerce domain
+-----------------
+
+Application divide in 2 part
+
+1. FrontEnd
+=> Register, login, search, add/edit/delete to cart, checkout, review etc...  
+               
+2. BackEnd (means only backEnd team can do this activity)
+=> Products, customers, orders, store etc...   
+   
+   
+   
+   
+         
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+            
